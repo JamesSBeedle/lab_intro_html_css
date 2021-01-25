@@ -56,7 +56,28 @@ body > footer > h2 {
 }
 
 form >textarea {
-    width: 100%;
+    width: 90%;
+
 }
 
+.profile-pic {
+    border: black solid 1px;
+    margin-top: 1%;
+}
+
+.users {
+    border-top: black solid 2px;
+    /* margin-top: 1%; */
+}
+
+#text-input > form > textarea {
+    width:98%;
+    margin-left: 1%;
+    
+}
+
+#text-input > form > input {
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
 
