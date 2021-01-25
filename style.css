@@ -6,9 +6,25 @@ body {
 body > header{
     background-color: dodgerblue;
 }
+
 body > header > h1{
     color: white;
     margin: 0;
+}
+
+body > header> nav > ul {
+    list-style: none;
+    
+}
+
+body > header > nav > ul > li {
+    display: inline;
+   
+}
+
+body > header > nav > ul > li > a   {
+    color: white;
+    text-decoration: none;
 }
 
 body > footer {
@@ -21,7 +37,26 @@ body > footer > h2 {
     margin:0;
 }
 
-body {
-    width: 
+/* body > main {
+    width: 70%;
+    margin: auto;
+} */
+
+
+
+.headline {
+    max-width:300px;
+    height: auto;
+
 }
+
+.stories > a {
+    color: black;
+    text-decoration: none;
+}
+
+form >textarea {
+    width: 100%;
+}
+
 
